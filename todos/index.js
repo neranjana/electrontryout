@@ -47,7 +47,9 @@ const menuTemplate = [
             },
             { 
                 label: 'Clear Todos' ,
-                click() { mainWindow.webContents.send('todo:clear'); }
+                click() { 
+                    mainWindow.webContents.send('todo:clear'); 
+                }
             },
             {
                 label: 'Quit', 
