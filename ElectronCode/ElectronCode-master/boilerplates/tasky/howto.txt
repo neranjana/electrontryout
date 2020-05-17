@@ -1,0 +1,7 @@
+
+in first terminal
+npm install
+npm run start
+
+in a second terminal
+npm run electron
