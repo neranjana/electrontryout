@@ -9,7 +9,8 @@ class MainWindow extends BrowserWindow {
         width:300,
         frame: false,
         resizable: false,
-        show: false
+        show: false,
+        webPreferences: { backgroundThrottling: false } // prevent chromium from throtteling when user is not foculsed on a window
         });
 
         this.loadURL(url);
